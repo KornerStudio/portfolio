@@ -1,0 +1,16 @@
+/* .expertise {
+    border:1px solid red;
+    padding:0px;
+} */
+
+.expertise-year {
+    border:1px solid green;
+    width:20px; 
+    height:10px;
+    display:inline-block;
+    margin-right: 2px;
+}
+
+.expertise-year.has-expertise {
+    background-color:green;
+}

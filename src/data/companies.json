@@ -1,0 +1,92 @@
+[
+    {
+        "name": "BAIRESDEV",
+        "description": "Bairesdev is a Nearshore Technology Solutions company.",
+        "startyear": 2021,
+        "endyear": "Currently",
+        "projects": [
+            {
+                "name": "Paradigm Omni",
+                "description": "Omni is a quoting application that is customized to suit the clients needs. My job was to build new features and customizations as well as provide support and maintenance if required.",
+                "mainTasks": [
+                    "Customize Omni according to customer requirements",
+                    "Create new features",
+                    "Fix errors",
+                    "Develop test cases"
+                ],
+                "majorContribution": "Omni is a project that has been on the market for several years, even so I would say that my main contribution has been to add best practices to each new feature or bug fix.",
+                "technologies": ["React", "Bootstrap", "Redux", "Playwright", "React Route"]
+            }
+        ]
+    },
+    {
+        "name": "NICASOURCE",
+        "description": "Nicasource is a US engineering agency based in Nicaragua with branches in Argentina and Mexico.",
+        "startyear": 2019,
+        "endyear":  2021,
+        "projects": [
+            {
+                "name": "Scalar.io",
+                "description": "This was without a doubt one of the most complex and challenging experiences I had. In this project, we build a web app capable of creating capitalization tables and valuations for investment firms. The app had to include tables that were flexible enough to add rows and columns, draggable columns, dynamic formulas between cells, validations, among many others.",
+                "mainTasks": [
+                    "Decide the main modules to be installed",
+                    "Interface development",
+                    "Design the interface and user experience"
+                ],
+                "majorContribution": "Without a doubt, I made many if not most of the main decisions for the development of this app, from the interface and user experience to the technologies used. However, the most complex and valuable thing that I contributed would definitely be the development of the table component, which was a key point due to its complexity and the strategic advantages that it would bring to the app over the competition.",
+                "technologies": ["React", "Python", "PostgreSQL", "Django", "AWS services", "React MUI", "React-datasheet", "React Router", "Jest React Testing Library."]
+            }
+        ]
+    },
+    {
+        "name": "COEN GROUP / AIRPAK",
+        "description": "AirPak is the leading company in sending and receiving remittances in Central America.",
+        "startyear": 2017,
+        "endyear": 2019,
+        "projects":[
+            {
+                "name": "Airpak.com website",
+                "description": 
+                    "Western Union is managed throughout Central America by the company AirPak, in this project we created a transactional website that would allow its customers to perform the following three main services, Receive in your bank account the remittances sent by Western Union and/or Vigo worldwide, Send remittances through Western Union and/or Vigo, Pay water, electricity, telephone bills among many others",
+                "mainTasks": [
+                    "Interface development",
+                    "Design the interface and user experience"
+                ], 
+                "majorContribution": "Since a large number of remittance clients are people who do not have many technological skills and who do not use this kind of tools very often, I consider that my main contribution for this project was to design the most user-friendly interface and user experience. possible. The stack of technologies used was very limited but I think I did an excellent job in developing the interface making sure to apply best practices and trends.",
+                "technologies": ["Dot Net", "Bootstrap", "Sass"]
+            },
+            {
+                "name": "AirPak Remittances Kiosk",
+                "description": "Of all the projects I've been involved in, this has been the one I've had the most fun with. Here I developed and designed a web application for use on a touchscreen all-in-one computer without a keyboard or mouse. Initially this project would be developed with Dot Net, but after several meetings and demonstrations I convinced the team to use new technologies such as Vue JS and GreenSock for the development of the interface. Interactivity and ease of use are the main features of this project. It includes transitions and sounds that significantly help users identify what step of the process they are in and what information is required. This project is still being used in the agencies of several Central American countries and has not undergone significant changes.",
+                "mainTasks": [
+                    "Desarrollo de la interfaz, animaciones y sonidos",
+                    "Diseñar la interfaz y la experiencia de usuario"
+                ],
+                "majorContribution": "Without my contribution the solution to this project would have been very poor. It would be perceived more as a classic website than an interactive application tailored to its users.",
+                "technologies": ["Dot Net", "Vue JS", "Bootstrap", "Sass", "GreenSock"]
+            }
+
+        ]
+    },
+    {
+        "name": "ACCEDO",
+        "description": "Accedo Digital is a data-driven Digital Marketing company delivering Digital Marketing services.",
+        "startyear": 2016,
+        "endyear": 2017,
+        "projects": [
+            {
+                "name": "CarrerBuilder",
+                "description": "At CarrerBuilder we create hundreds of 'Talent Networks' or personalized sites where all the job opportunities of each company are listed. I had the opportunity to work with companies like PayPal, Thermo King and even Google. I worked in the development team and was the founder of the design team.",
+                "mainTasks": [
+                    "Design the 'Talent Networks' making sure to comply with the client's design guidelines.",
+                    "Develop themes using Bootstrap, Sass and Javascript for the CMS created by CareerBuilder." 
+                ],
+                "majorContribution": [
+                    "Inaugurate the design team. This work was performed by another company. Leveraging my skills as a designer we started with a pilot and the client was so satisfied that soon after more designers were hired to form a design team.",
+                    "Although the technologies we used were very simple, the time factor was very important, so little by little I developed a small framework taking advantage of Sass functions to speed up the development process, which reduced it by more than 40%."
+                ],
+                "technologies": ["Bootstrap", "Sass", "Javascript."]
+            }
+        ]
+    }
+]
