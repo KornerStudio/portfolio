@@ -1,4 +1,14 @@
+import skills from '../../data/skills.json';
+import { useEffect } from 'react';
+
 function Projectlist({projects}){
+    useEffect(() => {
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new window.bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    }, [])
+
     return(
         <div className="accordion" id="project-list">
 
@@ -24,11 +34,29 @@ function Projectlist({projects}){
                             </ul>
                             <p><b>Major Contribution:</b><br/>{project.majorContribution}</p> 
                             <p><b>Technologies:</b><br/></p> 
+
+
+
+
                             {project?.technologies?.map((technology, index) => {
                                 return(
-                                    <span className="badge rounded-pill text-bg-success me-2 py-2 px-3">{technology}</span> 
+                                    <>
+                                    <span
+                                        className="badge rounded-pill me-2 py-2 px-3"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="top"
+                                        title={`${skills[technology].years} years of experience and counting...`}
+                                        style={{ backgroundColor: skills[technology].color }}
+                                    >
+                                        {skills[technology].name} {skills[technology].years}x
+                                    </span>
+                                  </>
                                 )
                             })}
+
+
+
+
                             </div>
                         </div>
                     </div>

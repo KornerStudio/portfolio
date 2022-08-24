@@ -15,7 +15,7 @@
                     "Develop test cases"
                 ],
                 "majorContribution": "Omni is a project that has been on the market for several years, even so I would say that my main contribution has been to add best practices to each new feature or bug fix.",
-                "technologies": ["React", "Bootstrap", "Redux", "Playwright", "React Route"]
+                "technologies": ["react", "bootstrap", "redux", "playwright"]
             }
         ]
     },
@@ -34,7 +34,7 @@
                     "Design the interface and user experience"
                 ],
                 "majorContribution": "Without a doubt, I made many if not most of the main decisions for the development of this app, from the interface and user experience to the technologies used. However, the most complex and valuable thing that I contributed would definitely be the development of the table component, which was a key point due to its complexity and the strategic advantages that it would bring to the app over the competition.",
-                "technologies": ["React", "Python", "PostgreSQL", "Django", "AWS services", "React MUI", "React-datasheet", "React Router", "Jest React Testing Library."]
+                "technologies": ["react", "python"]
             }
         ]
     },
@@ -53,7 +53,7 @@
                     "Design the interface and user experience"
                 ], 
                 "majorContribution": "Since a large number of remittance clients are people who do not have many technological skills and who do not use this kind of tools very often, I consider that my main contribution for this project was to design the most user-friendly interface and user experience. possible. The stack of technologies used was very limited but I think I did an excellent job in developing the interface making sure to apply best practices and trends.",
-                "technologies": ["Dot Net", "Bootstrap", "Sass"]
+                "technologies": ["bootstrap", "css"]
             },
             {
                 "name": "AirPak Remittances Kiosk",
@@ -63,7 +63,7 @@
                     "Diseñar la interfaz y la experiencia de usuario"
                 ],
                 "majorContribution": "Without my contribution the solution to this project would have been very poor. It would be perceived more as a classic website than an interactive application tailored to its users.",
-                "technologies": ["Dot Net", "Vue JS", "Bootstrap", "Sass", "GreenSock"]
+                "technologies": ["bootstrap", "css"]
             }
 
         ]
@@ -85,7 +85,7 @@
                     "Inaugurate the design team. This work was performed by another company. Leveraging my skills as a designer we started with a pilot and the client was so satisfied that soon after more designers were hired to form a design team.",
                     "Although the technologies we used were very simple, the time factor was very important, so little by little I developed a small framework taking advantage of Sass functions to speed up the development process, which reduced it by more than 40%."
                 ],
-                "technologies": ["Bootstrap", "Sass", "Javascript."]
+                "technologies": ["bootstrap", "css", "javascript."]
             }
         ]
     }
