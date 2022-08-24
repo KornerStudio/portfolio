@@ -1,23 +1,18 @@
 import "./styles.css" 
-import technologies from "../../data/technologies.json";
 import Expertise from "../expertise/Expertise";
+import skills from '../../data/skills.json';
 
 function Skills(){
     return(
         <div id="skills-section" className="section">
             <div className="container">
-                <div className="row">
-                    <div className="col-md-6 col-lg-4"> 
-                        <p>personaje aquí gvhcsy gkau vkvy uac sbkaschvjc  ausvhvjh ascasb kjbkj asjkjg yfuoi </p>
-                    </div>
-                    <div className="col-md-6 col-lg-8">
-                        <h1>Skills</h1>
-                        {
-                            technologies.map((technology, index) => (
-                                <Expertise key={`skill-${index}`} years={technology.years}/>
-                            )) 
-                        }
-                    </div>
+                <h1>Skills</h1>
+                <div className="expertise-grid">
+                    {
+                        Object.values(skills).map((technology, index) => (
+                            <Expertise key={`skill-${index}`} {...technology}/>
+                        )) 
+                    }
                 </div>
             </div>
         </div>

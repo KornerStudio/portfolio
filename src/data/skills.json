@@ -1,0 +1,52 @@
+{
+    "javascript": {
+        "name": "Javascript",
+        "years": 7,
+        "color": "#F2C94C" 
+    },
+    "react": {
+        "name": "React",
+        "years":10,
+        "color":"#2F80ED"
+    },
+    "redux": {
+        "name": "Redux",
+        "years": 4,
+        "color": "#9B51E0"
+    },
+    "rtk": {
+        "name": "Redux-Toolkit",
+        "years": 6,
+        "color": "#BB6BD9"
+    },
+    "storybook": {
+        "name": "StoryBook",
+        "years": 5,
+        "color":"#FF4785"
+    },
+    "playwright": {
+        "name": "Playwright",
+        "years": 4,
+        "color": "#219653"
+    },
+    "html": {
+        "name": "HTML",
+        "years": 8,
+        "color": "#DA6A3A"
+    },
+    "css": {
+        "name": "CSS/ASS",
+        "years": 9,
+        "color": "#2A4FD5"
+    },
+    "bootstrap": {
+        "name": "Bootstrap",
+        "years": 2,
+        "color": "#F05133"
+    },
+    "python": {
+        "name": "Python",
+        "years": 6,
+        "color": "#009CDE"
+    }  
+}

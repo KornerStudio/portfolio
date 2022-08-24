@@ -1,11 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700;900&display=swap');
+
 .section {
     min-height: 300px;
-    /* padding:150px; */
+    padding:100px 0px;
 }
-#skills-section {
-    /* background-color:black; */
-    /* color:white; */
+.expertise-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
 }
-.row div {
-/* background-color: green; */
+.expertise-grid__item {
+    border: none;
+    background-color: gray;
+    border-radius: 24px;
+    padding: 24px;
+    position: relative;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.expertise-grid__title {
+border: 2px solid white;
+color: white;
+padding: 12px 16px;
+display: inline-block;
+text-transform: uppercase;
+border-radius: 4px;
+font-size: 16px;
+font-weight: 900;
+font-family: 'Roboto Slab', serif;
+/* flex-grow: 1; */
+
+}
+.expertise-grid__years {
+    background-color: white;
+    border-radius: 16px;
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Roboto Slab', 'serif';
+    position: absolute;
+    bottom: 16px;
+    right:16px;
+    margin: 0px;
+}
+@media screen and (min-width: 800px) {
+    .expertise-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }   
+}
+@media screen and (min-width: 1000px) {
+   .expertise-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    } 
 }
