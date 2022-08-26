@@ -2,77 +2,92 @@
     "javascript": {
         "name": "Javascript",
         "years": 7,
-        "color": "#F2C94C" 
+        "color": "#F2C94C", 
+        "type": 1
     },
     "react": {
         "name": "React",
         "years":10,
-        "color":"#2F80ED"
+        "color":"#2F80ED",
+        "type": 0
     },
     "redux": {
         "name": "Redux",
         "years": 4,
-        "color": "#9B51E0"
+        "color": "#9B51E0",
+        "type": 2
     },
     "rtk": {
         "name": "Redux-Toolkit",
         "years": 6,
-        "color": "#BB6BD9"
+        "color": "#BB6BD9",
+        "type": 0
     },
     "storybook": {
         "name": "StoryBook",
         "years": 5,
-        "color":"#FF4785"
+        "color":"#FF4785",
+        "type": 2
     },
     "playwright": {
         "name": "Playwright",
         "years": 4,
-        "color": "#219653"
+        "color": "#219653",
+        "type": 0
     },
     "html": {
         "name": "HTML",
         "years": 8,
-        "color": "#DA6A3A"
+        "color": "#DA6A3A",
+        "type": 0
     },
     "css": {
         "name": "CSS/ASS",
         "years": 9,
-        "color": "#2A4FD5"
+        "color": "#2A4FD5",
+        "type": 1
     },
     "bootstrap": {
         "name": "Bootstrap",
         "years": 2,
-        "color": "#F05133"
+        "color": "#F05133",
+        "type": 2
     },
     "python": {
         "name": "Python",
         "years": 6,
-        "color": "#009CDE"
+        "color": "#009CDE",
+        "type": 0
     } ,
     "react-router": {
         "name": "react-router",
         "years": "7",   
-        "color": "#F42B00"
+        "color": "#F42B00",
+        "type": 1
     },
     "postgreSQL": {
        "name": "postgreSQL",
        "years": "3",
-       "color": "#F49B00"
+       "color": "#F49B00",
+       "type": 0
     }, 
     "django": {
         "name": "django",
         "years": 5,
-        "color":"#D6EF03"
+        "color":"#D6EF03",
+        "type": 0
     },
     "aws services": {
         "name": "aws services",
         "years": 4,
-        "color": "#6EA40F"
+        "color": "#6EA40F",
+        "type": 0
     },
     "react-mui": {
         "name": "react-mui",
         "years": 8,
-        "color": "#06D19D"
+        "color": "#06D19D",
+        "type": 1
     },
     "react-datasheet": {
         "name": "react-datasheet",
@@ -82,26 +97,31 @@
     "react-testing-library": {
         "name": "react-testing-library",
         "years": 2,
-        "color": "#A1BFD3"
+        "color": "#A1BFD3",
+        "type": 2
     },
     "jest": {
         "name": "jest",
         "years": 6,
-        "color": "#4D64D0"
+        "color": "#4D64D0",
+        "type": 1
     } ,
     "dot-net": {
         "name": "dot-net",
         "years": "7",   
-        "color": "#594BC0"
+        "color": "#594BC0",
+        "type": 0
     },
     "vue-js": {
        "name": "vue-js",
        "years": "3",
-       "color": "#7243BE"
+       "color": "#7243BE",
+       "type": 0
     },
     "green-sock": {
         "name": "green-sock",
         "years": "3",
-        "color": "#992465"
+        "color": "#992465",
+        "type": 1
      }
 }

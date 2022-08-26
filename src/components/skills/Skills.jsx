@@ -1,19 +1,27 @@
 import "./styles.css" 
 import Expertise from "../expertise/Expertise";
 import skills from '../../data/skills.json';
+import Tabs from "../tabs/Tabs";
+import { useState } from 'react';
+
+const options = ["Development", "Design", "Soft Skills"];
 
 function Skills(){
+    const [activeTab, setActiveTab] = useState(1);
+
     return(
         <div id="skills-section" className="section">
             <div className="container">
-                <h1>Skills</h1>
+                <h1>Skills</h1> 
+                <Tabs options={options}  setActiveTab={setActiveTab} activeTab={activeTab}/>
                 <div className="expertise-grid">
                     {
-                        Object.values(skills).map((technology, index) => (
-                            <Expertise key={`skill-${index}`} {...technology}/>
+                        Object.values(skills).map((skill, index) => (
+                           activeTab=== skill.type && <Expertise key={`skill-${index}`} {...skill}/> 
                         )) 
                     }
                 </div>
+                        
             </div>
         </div>
     )
