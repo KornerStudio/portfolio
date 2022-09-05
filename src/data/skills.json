@@ -3,7 +3,7 @@
         "name": "Javascript",
         "years": 7,
         "color": "#F2C94C", 
-        "type": 1
+        "type": 0
     },
     "react": {
         "name": "React",
@@ -15,7 +15,7 @@
         "name": "Redux",
         "years": 4,
         "color": "#9B51E0",
-        "type": 2
+        "type": 0
     },
     "rtk": {
         "name": "Redux-Toolkit",
@@ -27,7 +27,7 @@
         "name": "StoryBook",
         "years": 5,
         "color":"#FF4785",
-        "type": 2
+        "type": 0
     },
     "playwright": {
         "name": "Playwright",
@@ -45,13 +45,13 @@
         "name": "CSS/ASS",
         "years": 9,
         "color": "#2A4FD5",
-        "type": 1
+        "type": 0
     },
     "bootstrap": {
         "name": "Bootstrap",
         "years": 2,
         "color": "#F05133",
-        "type": 2
+        "type": 0
     },
     "python": {
         "name": "Python",
@@ -63,7 +63,7 @@
         "name": "react-router",
         "years": "7",   
         "color": "#F42B00",
-        "type": 1
+        "type": 0
     },
     "postgreSQL": {
        "name": "postgreSQL",
@@ -87,24 +87,25 @@
         "name": "react-mui",
         "years": 8,
         "color": "#06D19D",
-        "type": 1
+        "type": 0
     },
     "react-datasheet": {
         "name": "react-datasheet",
         "years": 9,
-        "color": "#07B0B8"
+        "color": "#07B0B8",
+        "type": 0
     },
     "react-testing-library": {
         "name": "react-testing-library",
         "years": 2,
         "color": "#A1BFD3",
-        "type": 2
+        "type": 0
     },
     "jest": {
         "name": "jest",
         "years": 6,
         "color": "#4D64D0",
-        "type": 1
+        "type": 0
     } ,
     "dot-net": {
         "name": "dot-net",
@@ -122,6 +123,48 @@
         "name": "green-sock",
         "years": "3",
         "color": "#992465",
+        "type": 0
+     },
+     "figma": {
+        "name": "Figma",
+        "years": 7,
+        "color": "#F2C94C", 
         "type": 1
-     }
+    },
+    "sketch": {
+        "name": "Sketch",
+        "years": "3",
+        "color": "#992465",
+        "type": 1
+    },
+    "adobe-xd": {
+        "name": "Adobe-XD",
+        "years": "3",
+        "color": "#06D19D",
+        "type": 1
+    },
+    "Photoshop": {
+        "name": "Photoshop",
+        "years": "3",
+        "color": "#BB6BD9",
+        "type": 1
+    },
+    "ilustrator": {
+        "name": "ilustrator",
+        "years": "3",
+        "color": "#4D64D0",
+        "type": 1
+    },
+    "in-design": {
+        "name": "in-design",
+        "years": "3",
+        "color": "#6EA40F",
+        "type": 1
+    },
+    "after-effect": {
+        "name": "after-effect",
+        "years": "3",
+        "color": "#07B0B8",
+        "type": 1
+    }
 }

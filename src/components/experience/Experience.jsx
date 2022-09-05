@@ -14,7 +14,7 @@ function Experience(){
     return(
         <div id="experience-section" className="section">
             <div className="container">
-                <h1>Experience</h1>
+                <h2>Experience</h2>
                 {
                     companies.map((company, index) => ( 
                         <div key={`company-${index}`} className="card mb-3"> 
@@ -38,7 +38,8 @@ function Experience(){
                 companies={companies}
                 setActiveDialog={setActiveDialog}
             />
-        </div>
+           
+            </div>
     )
 }
 

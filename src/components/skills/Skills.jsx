@@ -12,7 +12,7 @@ function Skills(){
     return(
         <div id="skills-section" className="section">
             <div className="container">
-                <h1>Skills</h1> 
+                <h2>Skills</h2> 
                 <Tabs options={options}  setActiveTab={setActiveTab} activeTab={activeTab}/>
                 <div className="expertise-grid">
                     {
