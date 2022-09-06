@@ -1,4 +1,5 @@
 import{useState} from "react";
+import "./contact.css";
 
 const Contact= () => {
     const [formValues, setFormValues] = useState({
@@ -15,14 +16,12 @@ const Contact= () => {
     } 
 
     return (
-        <div className="container"
-        style={{marginTop:"150px",
-        marginBottom:"150px",
-        }}>
-            <h2 style={{marginTop: "25px"}}>Contact</h2>
+        <div id="contact-section" className="section">
+            <div className="container">
+            <h2>Contact</h2>
                 <div class="row justify-content-start">
                     <div class="col-6">
-                    <form className= "row" style={{margin: "25px 85px 75px 100px"}}>
+                    <form className= "row">
                         <label>Name</label>
                         <input type="text" name="name" className="form-control" onChange={handleChange} value={formValues.name}/>
 
@@ -31,12 +30,12 @@ const Contact= () => {
 
                         <label>Message</label>
                         <textarea name="message" rows="4" className="form-control" onChange={handleChange} value={formValues.message}/>
-                        <input type="submit" value="send" className="form-control btn btn-primary"
-                        style={{marginTop:"30px"}}
+                        <input type="submit" value="Send Message" className="form-control btn btn-primary"
                         />
                     </form>
                     </div>
                 </div>
+            </div>
                 
         </div> 
     )
