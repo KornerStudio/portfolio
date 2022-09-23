@@ -16,8 +16,10 @@ function Experience(){
         <div id="experience-section" className="section">
             <div className="container">
                 <h2>Experience</h2>
-                <Timeline/>
-                {
+                <Timeline
+                    companies={companies}
+                />
+                {/* {
                     companies.map((company, index) => ( 
                         <div key={`company-${index}`} className="card mb-3"> 
                             <h5 className="card-header">{company.name}</h5>
@@ -33,7 +35,7 @@ function Experience(){
                             </div>
                         </div>
                     ))
-                }
+                } */}
             </div>
             <Dialog
                 activeDialog={activeDialog}

@@ -1,6 +1,7 @@
 [
     {
         "name": "BAIRESDEV",
+        "position": "React Developer",
         "description": "Bairesdev is a Nearshore Technology Solutions company.",
         "startyear": 2021,
         "endyear": "Currently",
@@ -21,6 +22,7 @@
     },
     {
         "name": "NICASOURCE",
+        "position": "React Developer",
         "description": "Nicasource is a US engineering agency based in Nicaragua with branches in Argentina and Mexico.",
         "startyear": 2019,
         "endyear":  2021,
@@ -40,6 +42,7 @@
     },
     {
         "name": "COEN GROUP / AIRPAK",
+        "position": "React Developer",
         "description": "AirPak is the leading company in sending and receiving remittances in Central America.",
         "startyear": 2017,
         "endyear": 2019,
@@ -70,6 +73,7 @@
     },
     {
         "name": "ACCEDO",
+        "position": "React Developer",
         "description": "Accedo Digital is a data-driven Digital Marketing company delivering Digital Marketing services.",
         "startyear": 2016,
         "endyear": 2017,
