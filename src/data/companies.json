@@ -36,7 +36,7 @@
                     "Design the interface and user experience"
                 ],
                 "majorContribution": "Without a doubt, I made many if not most of the main decisions for the development of this app, from the interface and user experience to the technologies used. However, the most complex and valuable thing that I contributed would definitely be the development of the table component, which was a key point due to its complexity and the strategic advantages that it would bring to the app over the competition.",
-                "technologies": ["react", "python", "postgreSQL", "django", "aws services", "react-mui", "react-datasheet", "react-router", "jest", "react-testing-library"]
+                "technologies": ["react", "python", "postgreSQL", "django", "aws-services", "react-mui", "react-datasheet", "react-router", "jest", "react-testing-library"]
             }
         ]
     },
@@ -46,7 +46,7 @@
         "description": "AirPak is the leading company in sending and receiving remittances in Central America.",
         "startyear": 2017,
         "endyear": 2019,
-        "projects":[
+        "projects": [
             {
                 "name": "Airpak.com website",
                 "description": 
