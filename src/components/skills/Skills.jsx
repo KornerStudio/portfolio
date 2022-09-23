@@ -2,7 +2,7 @@ import "./styles.css"
 import Expertise from "../expertise/Expertise";
 import skills from '../../data/skills.json';
 import Tabs from "../tabs/Tabs";
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 const options = ["Development", "Design", "Soft Skills"];
 

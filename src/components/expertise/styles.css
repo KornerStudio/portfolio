@@ -16,18 +16,32 @@
     align-items: center;
     flex-direction: column;
 }
+.expertise-grid__item .x {
+    display: inline-block;
+}
+.expertise-grid__item:hover .x {
+    display: none;
+}
+.expertise-grid__item .years {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 0px;
+    overflow: hidden;
+    transition: width 2s;
+}
+.expertise-grid__item:hover .years {
+    width: auto;
+}
 .expertise-grid__title {
-border: 2px solid white;
-color: white;
-padding: 12px 16px;
-display: inline-block;
-text-transform: uppercase;
-border-radius: 4px;
-font-size: 16px;
-font-weight: 900;
-font-family: 'Roboto Slab', serif;
-/* flex-grow: 1; */
-
+    border: 2px solid white;
+    color: white;
+    padding: 12px 16px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Roboto Slab', serif;
 }
 .expertise-grid__years {
     background-color: white;
@@ -43,6 +57,8 @@ font-family: 'Roboto Slab', serif;
     margin: 0px;
 }
 
+
+
 @media screen and (min-width: 800px) {
     .expertise-grid {
         grid-template-columns: 1fr 1fr 1fr;
@@ -52,12 +68,4 @@ font-family: 'Roboto Slab', serif;
    .expertise-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     } 
-}
-
-.expertise-grid__item .years{
-    display: none;
-}
-
-.expertise-grid__item:hover .years{
-    display: inline-block;
 }

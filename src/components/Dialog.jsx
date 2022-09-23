@@ -1,3 +1,4 @@
+import React from 'react';
 import ProjectList from './project-list/ProjectList';
 import Icon from './icon/Icon';
 

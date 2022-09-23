@@ -1,5 +1,5 @@
+import React from 'react';
 import './tabs.css';
-
 
 function Tabs({ options, setActiveTab, activeTab }) {
     const toggleTab =(event, index) => {

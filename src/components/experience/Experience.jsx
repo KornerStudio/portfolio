@@ -1,7 +1,7 @@
-import {useState} from "react";
+import React, { useState } from "react";
 import "./styles.css";
 import companies from "../../data/companies.json";
-import Dialog from "../Dialog";
+// import Dialog from "../Dialog";
 import Timeline from "../Timeline/Timeline";
 
 function Experience(){
@@ -19,31 +19,13 @@ function Experience(){
                 <Timeline
                     companies={companies}
                 />
-                {/* {
-                    companies.map((company, index) => ( 
-                        <div key={`company-${index}`} className="card mb-3"> 
-                            <h5 className="card-header">{company.name}</h5>
-                            <div className="card-body">
-                                <h5 className="card-title">{company.startyear} - {company.endyear}</h5>
-                                <button
-                                    onClick={() => openDialog(index)}
-                                    type="button"
-                                    className="btn btn-primary"
-                                >
-                                    Read More
-                                </button>
-                            </div>
-                        </div>
-                    ))
-                } */}
             </div>
-            <Dialog
+            {/* <Dialog
                 activeDialog={activeDialog}
                 companies={companies}
                 setActiveDialog={setActiveDialog}
-            />
-           
-            </div>
+            /> */}
+        </div>
     )
 }
 

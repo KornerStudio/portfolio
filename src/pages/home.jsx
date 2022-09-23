@@ -1,9 +1,10 @@
+import React from 'react';
 import Skills from "../components/skills/Skills.jsx"
 import Experience from "../components/experience/Experience"
 import Contact from "../components/contact/contact"
 import Header from "../components/Header/Header"
 
-function Home() {
+const Home = () => {
   return (
     <div >
       <Header/>
