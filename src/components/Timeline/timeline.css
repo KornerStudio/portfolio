@@ -1,0 +1,16 @@
+
+.vertical-timeline-element-title {
+    color: #2F80ED;
+}
+.vertical-timeline-element-icon {
+    background: black;
+    color: #2F80ED;
+}
+.vertical-timeline-element-content {
+    color: white;
+    box-shadow: none;
+    background-color: transparent;
+}
+.vertical-timeline-element-content-arrow {
+    display: none;
+}

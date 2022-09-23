@@ -72,19 +72,19 @@
        "type": 0
     }, 
     "django": {
-        "name": "django",
+        "name": "Django",
         "years": 5,
         "color":"#D6EF03",
         "type": 0
     },
-    "aws services": {
-        "name": "aws services",
+    "aws-services": {
+        "name": "Aws Services",
         "years": 4,
         "color": "#6EA40F",
         "type": 0
     },
     "react-mui": {
-        "name": "react-mui",
+        "name": "React Mui",
         "years": 8,
         "color": "#06D19D",
         "type": 0
