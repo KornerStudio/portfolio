@@ -18,24 +18,8 @@ function Experience(){
                 <h2>Experience</h2>
                 <Timeline
                     companies={companies}
+                    openDialog={openDialog}
                 />
-                {/* {
-                    companies.map((company, index) => ( 
-                        <div key={`company-${index}`} className="card mb-3"> 
-                            <h5 className="card-header">{company.name}</h5>
-                            <div className="card-body">
-                                <h5 className="card-title">{company.startyear} - {company.endyear}</h5>
-                                <button
-                                    onClick={() => openDialog(index)}
-                                    type="button"
-                                    className="btn btn-primary"
-                                >
-                                    Read More
-                                </button>
-                            </div>
-                        </div>
-                    ))
-                } */}
             </div>
             <Dialog
                 activeDialog={activeDialog}

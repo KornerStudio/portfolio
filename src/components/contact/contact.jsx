@@ -19,8 +19,8 @@ const Contact= () => {
         <div id="contact-section" className="section">
             <div className="container">
             <h2>Contact</h2>
-                <div class="row justify-content-start">
-                    <div class="col-6">
+                <div className="row justify-content-start">
+                    <div className="col-6">
                     <form className= "row">
                         <label>Name</label>
                         <input type="text" name="name" className="form-control" onChange={handleChange} value={formValues.name}/>

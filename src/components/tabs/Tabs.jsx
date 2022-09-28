@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import './tabs.css';
 
 
@@ -11,11 +12,14 @@ function Tabs({ options, setActiveTab, activeTab }) {
         <div className="container tabs-container">
             <ul className="nav nav-pills">
                 {options.map((option, index) => (
-                    <li class="nav-item">
+                    <li key={`tab-${index}`} className="nav-item">
                         <a
                             className={`nav-link ${activeTab === index && "active"}`}
                             onClick={(event) => {toggleTab(event, index)}}
-                        >{option}</a>
+                            href="#"
+                        >
+                            {option}
+                        </a>
                     </li>
                 ))}
             </ul>
