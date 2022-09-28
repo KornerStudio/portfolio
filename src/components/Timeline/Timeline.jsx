@@ -5,6 +5,7 @@ import Icon from '../icon/Icon';
 import "./timeline.css";
 import { useState, useEffect } from  'react';
 import skillData from '../../data/skills.json';
+import Button from '../button/Button';
 
 function Timeline({companies, openDialog}) {
     function RelatedSkills({company}){
@@ -27,7 +28,7 @@ function Timeline({companies, openDialog}) {
         }, [])
 
         return(
-            <>
+            <div>
                 {skills.map((technology, index) => (
                     <span
                         key={`technolohy-${index}`}
@@ -44,7 +45,7 @@ function Timeline({companies, openDialog}) {
                         )}
                     </span>
                 ))}
-            </>
+            </div>
         );
     }
 
@@ -55,21 +56,23 @@ function Timeline({companies, openDialog}) {
                 {companies.map((company, index) => (
                     <VerticalTimelineElement
                         key={`company-${index}`}
-                        className="vertical-timeline-element--work"
+                        className={`vertical-timeline-element--work ${index % 2 === 0 && "vertical-timeline-element--odd"}`}
                         date={`${company.startyear} - ${company.endyear}`}
                         icon={<Icon use="Bolt" />}
                     >
-                        <h3
-                            className="vertical-timeline-element-title"
-                            onClick={() => openDialog(index)}
-                        >
+                        <h3 className="vertical-timeline-element-title">
                             {company.name}
                         </h3>
                         <h4 className="vertical-timeline-element-subtitle">{company.position}</h4>
                         <p>
                         {company.description}
                         </p>
+                        <br/>
                         <RelatedSkills company={company} />
+                        <br/>
+                        <Button variant="success" onClick={() => openDialog(index)}>
+                            View Projects ({company.projects.length})
+                        </Button>
                     </VerticalTimelineElement>
                 ))}
             </VerticalTimeline>

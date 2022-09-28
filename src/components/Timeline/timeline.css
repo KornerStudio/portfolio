@@ -1,6 +1,9 @@
 
 .vertical-timeline-element-title {
     color: #2F80ED;
+    font-size: 54px;
+    font-family: "Roboto Slab";
+    font-weight: 900;
 }
 .vertical-timeline-element-icon {
     background: black;
@@ -13,4 +16,10 @@
 }
 .vertical-timeline-element-content-arrow {
     display: none;
+}
+.vertical-timeline-element--odd {
+    text-align: right;
+}
+.vertical-timeline-element--odd .vertical-timeline-element-date {
+    text-align: left;
 }
