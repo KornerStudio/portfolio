@@ -10,7 +10,7 @@ function Dialog({ activeDialog, companies, setActiveDialog }){
     }
     
     const handleNext = () => {
-        if (activeDialog < companies?.length - 1) {
+        if (activeDialog < companies?.length) {
             const nextCompany = activeDialog + 1;
             setActiveDialog(nextCompany);
         }
@@ -49,7 +49,7 @@ function Dialog({ activeDialog, companies, setActiveDialog }){
                             className="btn
                             btn-primary"
                             onClick={handleNext}
-                            disabled={activeDialog === companies.length - 1}
+                            disabled={activeDialog == (companies.length - 1)}
                         >
                             Next
                             <Icon use="ArrowRight"/>

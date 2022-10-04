@@ -28,6 +28,7 @@ function Experience(){
                 <h2>Experience</h2>
                 <Timeline
                     companies={companies}
+                    openDialog={openDialog}
                 />
             </div>
             {/* <Dialog
