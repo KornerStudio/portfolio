@@ -1,13 +1,24 @@
 import "./styles.css" 
 import Expertise from "../expertise/Expertise";
-import skills from '../../data/skills.json';
 import Tabs from "../tabs/Tabs";
 import React, { useState } from 'react';
+import { useEffect } from "react";
+import { fetchData } from '../../utils/api';
 
 const options = ["Development", "Design", "Soft Skills"];
 
 function Skills(){
     const [activeTab, setActiveTab] = useState(1);
+    const[skills, setSkills] = useState([]);
+
+    const getSkills = async () => {
+        const response = await fetchData('/skills');
+        setSkills(response);
+    };
+
+    useEffect(() => {
+        getSkills()
+    },[]);
 
     return(
         <div id="skills-section" className="section">

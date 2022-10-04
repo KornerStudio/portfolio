@@ -1,11 +1,21 @@
 import React, { useState } from "react";
 import "./styles.css";
-import companies from "../../data/companies.json";
-// import Dialog from "../Dialog";
 import Timeline from "../Timeline/Timeline";
+import { useEffect } from "react";
+import { fetchData } from '../../utils/api';
 
 function Experience(){
     const [activeDialog, setActiveDialog] = useState(0);
+    const [companies, setCompanies] = useState([]);
+
+    const getCompanies = async () => {
+        const response = await fetchData('/companies');
+        setCompanies(response);
+    };
+
+    useEffect(() => {
+        getCompanies()
+    },[]); 
 
     const openDialog = (index) => {
         setActiveDialog(index);

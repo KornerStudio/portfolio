@@ -54,28 +54,35 @@ function Timeline({companies}) {
         );
     }
 
+    if (companies.length) {
+        return (
+            <>
+                <VerticalTimeline>
+                    {companies.map((company, index) => (
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            date={`${company.startyear} - ${company.endyear}`}
+                            icon={<Icon use="Bolt" />}
+                        >
+                            <h3 className="vertical-timeline-element-title">{company.name}</h3>
+                            <h4 className="vertical-timeline-element-subtitle">{company.position}</h4>
+                            <p>
+                            {company.description}
+                            </p>
+                            <RelatedSkills company={company} />
+                        </VerticalTimelineElement>
+                    ))}
+                </VerticalTimeline>
+        
+            </>
+        )
+    }
 
     return (
-        <>
-            <VerticalTimeline>
-                {companies.map((company, index) => (
-                    <VerticalTimelineElement
-                        className="vertical-timeline-element--work"
-                        date={`${company.startyear} - ${company.endyear}`}
-                        icon={<Icon use="Bolt" />}
-                    >
-                        <h3 className="vertical-timeline-element-title">{company.name}</h3>
-                        <h4 className="vertical-timeline-element-subtitle">{company.position}</h4>
-                        <p>
-                        {company.description}
-                        </p>
-                        <RelatedSkills company={company} />
-                    </VerticalTimelineElement>
-                ))}
-            </VerticalTimeline>
-    
-        </>
-    )
+        <div className="spinner-border text-light" role="status">
+            <span className="visually-hidden">Loading...</span>
+        </div>
+    );
 
 };
 
