@@ -1,6 +1,5 @@
-import React from 'react';
-import ProjectList from './project-list/ProjectList';
-import Icon from './icon/Icon';
+import ProjectList from './ProjectList';
+import Icon from './Icon';
 
 function Dialog({ activeDialog, companies, setActiveDialog }){
     const handlePrev = () => {

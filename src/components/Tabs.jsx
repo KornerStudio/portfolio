@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react';
 import './tabs.css';
 
 function Tabs({ options, setActiveTab, activeTab }) {
@@ -13,13 +11,12 @@ function Tabs({ options, setActiveTab, activeTab }) {
             <ul className="nav nav-pills">
                 {options.map((option, index) => (
                     <li key={`tab-${index}`} className="nav-item">
-                        <a
+                        <button
                             className={`nav-link ${activeTab === index && "active"}`}
                             onClick={(event) => {toggleTab(event, index)}}
-                            href="#"
                         >
                             {option}
-                        </a>
+                        </button>
                     </li>
                 ))}
             </ul>

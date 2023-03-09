@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import "./header.css";
-import Button from '../button/Button';
+import Button from './Button';
 
 const menuItems = ['Skills', 'Experience', 'Contact'];
 
@@ -19,7 +19,7 @@ const Header= () => {
                     <span className="navbar-toggler-icon"></span>
                 </button> */}
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <a className="navbar-brand" href="#">Pete's</a>
+                    <span>Pete's</span>
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         {menuItems.map((menu, index) => (
                             <li key={`menu-item-${index}`} className="nav-item">

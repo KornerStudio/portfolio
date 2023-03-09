@@ -1,5 +1,4 @@
-import React from 'react';
-import "./styles.css";
+import "./expertise.css";
 
 function Expertise(props){
     return(

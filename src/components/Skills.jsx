@@ -1,9 +1,9 @@
-import "./styles.css" 
-import Expertise from "../expertise/Expertise";
-import Tabs from "../tabs/Tabs";
-import React, { useState } from 'react';
+import "./skills.css" 
+import Expertise from "./Expertise";
+import Tabs from "./Tabs";
+import { useState } from 'react';
 import { useEffect } from "react";
-import { fetchData } from '../../utils/api';
+import { fetchData } from '../utils/api';
 
 const options = ["Development", "Design", "Soft Skills"];
 
@@ -11,7 +11,6 @@ function Skills(){
     const [activeTab, setActiveTab] = useState(1);
     const [skills, setSkills] = useState([]);
 
-    console.log(skills);
     const getSkills = async () => {
         const response = await fetchData('/skills');
         setSkills(response);

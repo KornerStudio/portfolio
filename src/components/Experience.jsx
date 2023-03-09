@@ -1,11 +1,10 @@
-import React, { useState } from "react";
-import "./styles.css";
-import Timeline from "../Timeline/Timeline";
-import { useEffect } from "react";
-import { fetchData } from '../../utils/api';
+import { useState, useEffect } from "react";
+import "./experience.css";
+import Timeline from "./Timeline";
+import { fetchData } from '../utils/api';
 
 function Experience(){
-    const [activeDialog, setActiveDialog] = useState(0);
+    const [, setActiveDialog] = useState(0);
     const [companies, setCompanies] = useState([]);
 
     const getCompanies = async () => {

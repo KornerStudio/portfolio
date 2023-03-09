@@ -1,54 +1,53 @@
-import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import Icon from '../icon/Icon';
+import Icon from './Icon';
 import "./timeline.css";
-import { useState, useEffect } from  'react';
-import skillData from '../../data/skills.json';
-import Button from '../button/Button';
+// import { useState, useEffect } from  'react';
+// import skillData from '../../data/skills.json';
+import Button from './Button';
+
+// function RelatedSkills({company}){
+//     const [skills, setSkills] = useState([]);
+
+//     useEffect(function (){
+//         if (company?.projects?.length){
+//             const newSkills = [];
+
+//             company?.projects?.forEach((project) => {
+//                 project?.technologies.forEach((technology) => {
+//                     if (!newSkills.includes(technology)) {
+//                         newSkills.push(technology);
+//                     }
+//                 })
+//             })
+
+//             setSkills(newSkills);
+//         }
+//     }, [])
+
+//     return(
+//         <div>
+//             {skills.map((technology, index) => (
+//                 <span
+//                     key={`technolohy-${index}`}
+//                     className="badge rounded-pill me-2 py-2 px-3"
+//                     data-bs-toggle="tooltip"
+//                     data-bs-placement="top"
+//                     style={{ backgroundColor: skillData[technology]?.color }}
+//                 >
+//                     {skillData[technology] && (
+//                         <>
+//                             {skillData[technology].name} &nbsp; 
+//                             {skillData[technology]?.years}x
+//                         </>
+//                     )}
+//                 </span>
+//             ))}
+//         </div>
+//     );
+// }
 
 function Timeline({companies, openDialog}) {
-    function RelatedSkills({company}){
-        const [skills, setSkills] = useState([]);
-    
-        useEffect(function (){
-            if (company?.projects?.length){
-                const newSkills = [];
-
-                company?.projects?.forEach((project) => {
-                    project?.technologies.forEach((technology) => {
-                        if (!newSkills.includes(technology)) {
-                            newSkills.push(technology);
-                        }
-                    })
-                })
-
-                setSkills(newSkills);
-            }
-        }, [])
-
-        return(
-            <div>
-                {skills.map((technology, index) => (
-                    <span
-                        key={`technolohy-${index}`}
-                        className="badge rounded-pill me-2 py-2 px-3"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="top"
-                        style={{ backgroundColor: skillData[technology]?.color }}
-                    >
-                        {skillData[technology] && (
-                            <>
-                                {skillData[technology].name} &nbsp; 
-                                {skillData[technology]?.years}x
-                            </>
-                        )}
-                    </span>
-                ))}
-            </div>
-        );
-    }
-
     if (companies.length) {
         return (
             <>
@@ -68,7 +67,7 @@ function Timeline({companies, openDialog}) {
                             {company.description}
                             </p>
                             <br/>
-                            <RelatedSkills company={company} />
+                            {/* <RelatedSkills company={company} /> */}
                             <br/>
                             <Button variant="success" onClick={() => openDialog(index)}>
                                 View Projects ({company.projects.length})
