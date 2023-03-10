@@ -1,0 +1,12 @@
+.section {
+  min-height: 300px;
+  padding: 7rem 0;
+}
+.section > div > h2 {
+  color: white;
+  font-family: "Roboto Slab";
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}

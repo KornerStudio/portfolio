@@ -1,4 +1,4 @@
-import './tabs.css';
+import './Tabs.styles.css';
 
 function Tabs({ options, setActiveTab, activeTab }) {
     const toggleTab =(event, index) => {

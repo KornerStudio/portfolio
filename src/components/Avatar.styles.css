@@ -1,0 +1,8 @@
+.root {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  background-image: url("../../public/avatar.jpg");
+  background-position: center;
+  background-size: cover;
+}

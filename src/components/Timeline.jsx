@@ -1,7 +1,7 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import Icon from './Icon';
-import "./timeline.css";
+import "./Timeline.styles.css";
 // import { useState, useEffect } from  'react';
 // import skillData from '../../data/skills.json';
 import Button from './Button';

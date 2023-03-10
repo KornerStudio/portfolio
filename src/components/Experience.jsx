@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "./experience.css";
+import "./Experience.styles.css";
 import Timeline from "./Timeline";
 import { fetchData } from '../utils/api';
 
@@ -22,20 +22,17 @@ function Experience(){
     }
 
     return(
-        <div id="experience-section" className="section">
-            <div className="container">
-                <h2>Experience</h2>
-                <Timeline
-                    companies={companies}
-                    openDialog={openDialog}
-                />
-            </div>
+        <>
+            <Timeline
+                companies={companies}
+                openDialog={openDialog}
+            />
             {/* <Dialog
                 activeDialog={activeDialog}
                 companies={companies}
                 setActiveDialog={setActiveDialog}
             /> */}
-        </div>
+        </>
     )
 }
 

@@ -1,0 +1,69 @@
+.hero {
+  font-family: "Roboto Slab";
+  position: relative;
+  min-height: 900px;
+  max-height: 900px;
+  height: 900px !important;
+}
+.hero .fs-4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 2rem !important;
+  text-align: center;
+}
+.hero__avatar {
+  position: relative;
+  left: 32px;
+  top: 32px;
+  z-index: 20;
+}
+.hero__greeting {
+  position: relative;
+  z-index: 20;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  width: 400px;
+  left: 50%;
+  right: 50%;
+  top: 50px;
+  margin-left: -200px;
+}
+
+.hero__layer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transition: ease-in-out all 0.5s;
+}
+.hero__layer p {
+  font-size: 14rem !important;
+  font-weight: 900;
+  line-height: 1;
+  color: transparent;
+  transition: ease all 0.5s;
+}
+.hero__content {
+  justify-content: flex-start;
+  padding-top: 90px;
+}
+.hero__designer {
+  background-color: black;
+  clip-path: polygon(60% 0, 100% 0, 100% 100%, 40% 100%);
+}
+.hero__designer p {
+  -webkit-text-stroke: 6px #27ae60;
+}
+.hero__layer:hover p {
+  letter-spacing: -6px;
+}
+.hero__developer {
+  background-color: #27ae60;
+  clip-path: polygon(0 0, 60% 0, 40% 100%, 0 100%);
+}
+.hero__developer p {
+  -webkit-text-stroke: 6px black;
+}
