@@ -10,25 +10,6 @@
   font-size: 2rem !important;
   text-align: center;
 }
-.hero__avatar {
-  position: relative;
-  left: 32px;
-  top: 32px;
-  z-index: 20;
-}
-.hero__greeting {
-  position: relative;
-  z-index: 20;
-  color: white;
-  font-size: 3rem;
-  text-align: center;
-  width: 400px;
-  left: 50%;
-  right: 50%;
-  top: 50px;
-  margin-left: -200px;
-}
-
 .hero__layer {
   width: 100%;
   height: 100%;
@@ -66,4 +47,26 @@
 }
 .hero__developer p {
   -webkit-text-stroke: 6px black;
+}
+.hero__avatar {
+  position: relative;
+  left: 32px;
+  top: 32px;
+  z-index: 20;
+}
+.hero__greeting {
+  position: relative;
+  z-index: 20;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  width: 400px;
+  left: 50%;
+  right: 50%;
+  top: 50px;
+  margin-left: -200px;
+}
+.hero__cv {
+  position: relative;
+  z-index: 20;
 }
