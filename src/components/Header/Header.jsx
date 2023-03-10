@@ -1,6 +1,6 @@
 import "./Header.styles.css";
 import Avatar from '../Avatar';
-import { useRef, useEffect } from 'react';
+import { useRef } from 'react';
 
 const Header= () => {
     const developerRef = useRef();
