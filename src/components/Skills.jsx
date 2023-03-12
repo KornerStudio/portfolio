@@ -8,7 +8,7 @@ import "./Skills.styles.css"
 const options = ["Development", "Design", "Soft Skills"];
 
 function Skills(){
-    const [activeTab, setActiveTab] = useState(1);
+    const [activeTab, setActiveTab] = useState(0);
     const [skills, setSkills] = useState([]);
 
     const getSkills = async () => {

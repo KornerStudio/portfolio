@@ -16,6 +16,9 @@
   align-items: center;
   flex-direction: column;
 }
+.expertise-grid__item:hover {
+  cursor: pointer;
+}
 .expertise-grid__item .x {
   display: inline-block;
 }
