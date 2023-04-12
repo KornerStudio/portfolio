@@ -1,10 +1,14 @@
-import HomePage from "./pages/Home";
+import HomePage from "./pages/home";
+import { ThemeProvider } from "@mui/material";
+import theme from './theme'
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <HomePage />
+      <ThemeProvider theme={theme}>
+        <HomePage />
+      </ThemeProvider>
     </div>
   );
 }

@@ -48,7 +48,7 @@ function Dialog({ activeDialog, companies, setActiveDialog }){
                             className="btn
                             btn-primary"
                             onClick={handleNext}
-                            disabled={activeDialog == (companies.length - 1)}
+                            disabled={activeDialog === (companies.length - 1)}
                         >
                             Next
                             <Icon use="ArrowRight"/>
