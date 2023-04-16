@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import "./Experience.styles.css";
 import Timeline from "./Timeline";
 import { fetchData } from '../utils/api';
-import Dialog from './Dialog';
+// import Dialog from './Dialog';
+import Drawer from '../features/project-details/Drawer';
 
 function Experience(){
     const [activeDialog, setActiveDialog] = useState(0);
@@ -28,11 +29,16 @@ function Experience(){
                 companies={companies}
                 openDialog={openDialog}
             />
-            <Dialog
+            <Drawer
+                companies={companies}
+                activeDialog={activeDialog}
+                setActiveDialog={setActiveDialog}
+            />
+            {/* <Dialog
                 activeDialog={activeDialog}
                 companies={companies}
                 setActiveDialog={setActiveDialog}
-            />
+            /> */}
         </>
     )
 }
