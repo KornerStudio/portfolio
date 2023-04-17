@@ -1,5 +1,4 @@
 import { useMemo } from 'react';
-import ProjectList from '../../components/ProjectList';
 import { Drawer, Box, Typography, Stack, Divider, Button, IconButton } from '@mui/material';
 import { East, West, Close } from '@mui/icons-material'
 import Projects from './Projects';
@@ -30,8 +29,7 @@ const CustomDrawer = ({ activeDialog, companies, setActiveDialog }) => {
         <Drawer
             sx={{ maxWidth: '50%', height: '100vh' }}
             anchor="right"
-            // open={activeDialog >= 0}
-            open={true}
+            open={activeDialog >= 0}
             onClose={() => {
                 setActiveDialog(undefined);
             }}
