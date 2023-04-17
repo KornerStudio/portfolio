@@ -11,6 +11,12 @@
         "color":"#2F80ED",
         "type": 0
     },
+    "typescript": {
+        "name": "Typescript",
+        "years":3,
+        "color":"#2F80ED",
+        "type": 0
+    },
     "redux": {
         "name": "Redux",
         "years": 4,

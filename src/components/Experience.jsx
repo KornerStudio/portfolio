@@ -6,7 +6,7 @@ import { fetchData } from '../utils/api';
 import Drawer from '../features/project-details/Drawer';
 
 function Experience(){
-    const [activeDialog, setActiveDialog] = useState(0);
+    const [activeDialog, setActiveDialog] = useState();
     const [companies, setCompanies] = useState([]);
 
     const getCompanies = async () => {

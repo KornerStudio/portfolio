@@ -11,7 +11,7 @@ import { RocketLaunch } from '@mui/icons-material';
 import skills from '../../data/skills.json';
 
 const Projects = ({ projectList }) => {
-  const [activeStep, setActiveStep] = React.useState(0);
+  const [activeStep, setActiveStep] = React.useState();
     const theme = useTheme();
 
   return (
